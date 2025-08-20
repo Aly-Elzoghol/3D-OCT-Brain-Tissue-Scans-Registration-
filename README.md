@@ -1,6 +1,7 @@
-# 3D-OCT-Brain-Tissue-Scans-Registration-
+# 3D-OCT-Brain-Tissue-Scans-Registration
 dftregistration3D Function for 3D-OCT scans registration based on the cross correlation matrix between the volumes.
-
+ Main: SubVolumes_DFT_Subpixel_3DRegistration_Stiching.m
+ 
 # Approach
 3D registration based on Sub-Pixel DFT matrix multiplication using black borders padding Sub-Volumes stiching function.
 1. SubPixel DFT matrix multiplication: Use upsampling factor to enable half pixel shift values for upsfac=2, or more accurate tiny shift values using DFT matrix mutiplication within a predefined neighboring window size using the first shift estimate from usfac=2 step. 
